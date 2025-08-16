@@ -1,14 +1,21 @@
  
-import './App.css'
-
+import Greeting from "./greeting"
+import  quickanimal  from "./greeting"
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
      <>
-    <div></div>
+    <div>
+      <Greeting/>
+      <quickanimal/>
+      <header></header>
+      <main></main>
+      <footer></footer>
+    </div>
     </>
   )
 }
 
-  export default app
+  export default App
+  export default quickanimal
